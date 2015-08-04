@@ -2,6 +2,12 @@
 
 > Validate files with ESLint.
 
+## Disclaimer
+
+This project has been made to avoid breaking errors caused by an update to [ESLint](https://github.com/nzakas/eslint) by locking the dependency version. It has been forked from the original [eslint-grunt](https://github.com/iancmyers/eslint-grunt/tree/f3b25790b64ed4ef731f02f2d1dbc9d7fc8ae494) project by [Ian Christian Myers](https://github.com/iancmyers), apart from locking the dependency there are no other differences.
+
+It's essentially a quick fix solution to updating the original project, which if it is then this project could be safely depreciated.
+
 ## About ESLint
 
 [ESLint](https://github.com/nzakas/eslint) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. In many ways, it is similar to JSLint and JSHint with a few exceptions:

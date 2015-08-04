@@ -1,19 +1,19 @@
 {
-  "name": "eslint-grunt",
+  "name": "eslint-grunt-dep-locked",
   "description": "Validate files with ESLint – a tool for identifying and reporting on patterns in JavaScript, with pluggable rules.",
   "version": "1.0.0",
-  "homepage": "https://github.com/iancmyers/eslint-grunt",
+  "homepage": "https://github.com/tim545/eslint-grunt-dep-locked",
   "author": {
-    "name": "Ian Christian Myers",
-    "email": "ian@iancmyers.com",
-    "url": "http://iancmyers.com/"
+    "name": "Tim Freedman",
+    "email": "tim@timfreedman.net",
+    "url": "https://github.com/tim545"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/iancmyers/eslint-grunt.git"
+    "url": "git://github.com/tim545/eslint-grunt-dep-locked.git"
   },
   "bugs": {
-    "url": "https://github.com/iancmyers/eslint-grunt/issues"
+    "url": "https://github.com/tim545/eslint-grunt-dep-locked/issues"
   },
   "licenses": [
     {
@@ -29,7 +29,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "eslint": "*",
+    "eslint": "0.24.1",
     "colors": "~0.6.1"
   },
   "devDependencies": {
